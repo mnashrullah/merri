@@ -1,6 +1,6 @@
 # Merri Job Portal
 
-Example react native for using API from github
+Example react native using API from github
 
 Source Api: https://jobs.github.com/positions.json
 
