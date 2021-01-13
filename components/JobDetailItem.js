@@ -22,8 +22,6 @@ const JobDetailItem = props => {
                 </View>
                 <View style={styles.description}>
                     <Text style={styles.title}>{props.title}</Text>
-                    {/* <Text style={styles.company}>{props.company}</Text>
-                    <Text style={styles.location}>{props.location}</Text> */}
                 </View>
             </TouchableCmp>
         </View>

@@ -19,11 +19,12 @@ export default (state = initialState, action )=>{
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
         }, []);
-        
+
         return {
             ...state, 
             jobs: data
-        }   
+        } 
+    
     }    
     return state
 }
